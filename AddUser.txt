@@ -27,9 +27,6 @@ Test cases for phase 1
 ''valid input
 AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
 
-''valid input
-AddUser "rnmith", "password", "Nancy", "Smith", "ABC", "416-456-0000", "nsmith@sample.com"
-
 ''Invalid input - missing Username
 AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
 
